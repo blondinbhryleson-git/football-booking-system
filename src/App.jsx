@@ -1,10 +1,9 @@
-// App.jsx
-import './styles/global.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Booking from './pages/Booking';
 import AdminLogin from './pages/AdminLogin';
 import Dashboard from './pages/Dashboard';
+import './styles/global.css';
 
 function App() {
   return (
